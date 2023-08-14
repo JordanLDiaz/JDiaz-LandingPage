@@ -34,7 +34,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -46,6 +46,7 @@
                 <div class="text-center">
                     <h1 class="mx-auto my-0 text-uppercase">JORDAN DIAZ</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Full Stack Software Developer</h2>
+                    <h5></h5>
                     <a class="btn btn-primary" href="#about">Learn More</a>
                     <!-- TODO add button to open modal with resume (ref molly's page) -->
                 </div>
@@ -53,7 +54,7 @@
         </div>
     </header>
     <!-- About-->
-    <section class="about-section text-center bg-white" id="about">
+    <section class="about-section text-center bg-white">
         <div class="container px-4 px-lg-5 bg-white move-up rounded">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-12">
@@ -111,27 +112,43 @@
         </div>
     </section>
     <!-- Projects-->
-    <section class="projects-section bg-light" id="projects">
+    <section class="projects-section bg-light" id="about">
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                <div class="col-xl-8 col-lg-7 d-flex justify-content-center">
-                    <img class="img-fluid mb-3 mb-lg-0 pic rounded" src="assets/img/Jordan Diaz 5.jpg" alt="..." />
+                <div class="col-xl-6 col-lg-7 d-flex justify-content-center">
+                    <img class="img-fluid mb-3 mb-lg-0 pic rounded" src="assets/img/Jordan-Diaz-5.jpg" alt="..." />
                 </div>
-                <div class="col-xl-4 col-lg-5">
+                <div class="col-xl-6 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
-                        <h4>About Me</h4>
-                        <p class="text-black-50 mb-0">My name is Jordan Diaz. I am a graduate of Boise CodeWorks (2023)
-                            and an educator. I have a passion for psychology and better understanding the human
-                            condition, which has led to my interest in front end programming because it allows me to
-                            focus on improving the user experience. As a teaching assistant at Boise Codeworks, I am
-                            excited to
-                            continue improving on my skills, learning new languages, and helping others do the same!
+                        <h4><b>About Me</b></h4>
+                        <h5>Hello! I'm Jordan Diaz</h5>
+                        <p class="text-black-50 mb-0">I am a software developer with a passion for utilizing technology
+                            for positive social impact and an educator with a love of growth mindset and doing hard
+                            things. </p>
+                        <br>
+                        <p class="text-black-50 mb-0">
+                            I transitioned into software development after five years in elementary education
+                            where I gained valuable skills in teaching, communication, organization, management, and so
+                            much more. My passion for education and psychology has led to a love of front-end
+                            programming because it allows me to
+                            focus on improving the user experience and finding ways to positively impact the lives of
+                            others. I
+                            also enjoy server side programming!
                         </p>
+                        <br>
+                        <p class="text-black-50 mb-0">Outside of coding, I enjoy spending time outdoors hiking, camping,
+                            gardening, and most
+                            recently, rock hounding 🏞 I also enjoy spending time with my family, reading a good book,
+                            and
+                            snuggling with the best cats in the whole world!</p>
                     </div>
                 </div>
             </div>
             <!-- Project One Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="projects">
+                <h1 class="col-6 text-center">Featured Applications</h1>
+            </div>
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/DailyRhythm2.PNG" alt="..." /></div>
                 <div class="col-lg-6">
@@ -201,12 +218,17 @@
             </div>
             <!-- Project Five Row-->
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/MushroomForager.PNG" alt="..." /></div>
+                <div class="col-lg-6">
+                    <!-- <a href="https://jordanldiaz.github.io/kiwiKlicker/" target="_blank" class="">
+
+                    </a> -->
+                    <img class="img-fluid" src="assets/img/Kiwi-Klicker.PNG" alt="..." />
+                </div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">Mushroom Forager</h4>
+                                <h4 class="text-white">Kiwi Klicker</h4>
                                 <p class="mb-0 text-white-50">A fun and simple clicker game that utilizes HTML5, CSS,
                                     and JavaScript. </p>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
@@ -221,6 +243,9 @@
     <!-- Contact-->
     <section class="contact-section bg-black">
         <div class="container px-4 px-lg-5">
+            <div class="row" id="contact">
+                <h1 class="text-white text-center mb-5">CONTACT ME!</h1>
+            </div>
             <div class="row gx-4 gx-lg-5">
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
@@ -228,7 +253,8 @@
                             <i class="fab fa-linkedin-in text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">LinkedIn</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50"><a href="#!">linkedin.com/in/jordanldiaz/</a>
+                            <div class="small text-black-50"><a href="https://www.linkedin.com/in/jordanldiaz/"
+                                    target="_blank">linkedin.com/in/jordanldiaz/</a>
                             </div>
                         </div>
                     </div>
@@ -249,7 +275,9 @@
                             <i class="fa-brands fa-github text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Github</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50"><a href="#!">github.com/JordanLDiaz</a></div>
+                            <div class="small text-black-50"><a href="https://github.com/JordanLDiaz"
+                                    target="_blank">https://github.com/JordanLDiaz</a>
+                            </div>
                         </div>
                     </div>
                 </div>
